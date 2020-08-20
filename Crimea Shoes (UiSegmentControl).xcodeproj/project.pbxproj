@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8AD6C6824BDF00000906EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD6C6724BDF00000906EA2 /* AppDelegate.swift */; };
+		A8AD6C6A24BDF00000906EA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD6C6924BDF00000906EA2 /* SceneDelegate.swift */; };
+		A8AD6C6C24BDF00000906EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD6C6B24BDF00000906EA2 /* ViewController.swift */; };
+		A8AD6C6F24BDF00000906EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AD6C6D24BDF00000906EA2 /* Main.storyboard */; };
+		A8AD6C7124BDF00100906EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AD6C7024BDF00100906EA2 /* Assets.xcassets */; };
+		A8AD6C7424BDF00100906EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AD6C7224BDF00100906EA2 /* LaunchScreen.storyboard */; };
+		A8AD6C7C24BDF07100906EA2 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD6C7B24BDF07100906EA2 /* OrderViewController.swift */; };
+		A8AD6C7E24BE02B200906EA2 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD6C7D24BE02B200906EA2 /* EndViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8AD6C6424BDF00000906EA2 /* Crimea Shoes (UiSegmentControl).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crimea Shoes (UiSegmentControl).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AD6C6724BDF00000906EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8AD6C6924BDF00000906EA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8AD6C6B24BDF00000906EA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8AD6C6E24BDF00000906EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8AD6C7024BDF00100906EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8AD6C7324BDF00100906EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8AD6C7524BDF00100906EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8AD6C7B24BDF07100906EA2 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		A8AD6C7D24BE02B200906EA2 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8AD6C6124BDEFFF00906EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8AD6C5B24BDEFFF00906EA2 = {
+			isa = PBXGroup;
+			children = (
+				A8AD6C6624BDF00000906EA2 /* Crimea Shoes (UiSegmentControl) */,
+				A8AD6C6524BDF00000906EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8AD6C6524BDF00000906EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD6C6424BDF00000906EA2 /* Crimea Shoes (UiSegmentControl).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8AD6C6624BDF00000906EA2 /* Crimea Shoes (UiSegmentControl) */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD6C6724BDF00000906EA2 /* AppDelegate.swift */,
+				A8AD6C6924BDF00000906EA2 /* SceneDelegate.swift */,
+				A8AD6C6B24BDF00000906EA2 /* ViewController.swift */,
+				A8AD6C7B24BDF07100906EA2 /* OrderViewController.swift */,
+				A8AD6C7D24BE02B200906EA2 /* EndViewController.swift */,
+				A8AD6C6D24BDF00000906EA2 /* Main.storyboard */,
+				A8AD6C7024BDF00100906EA2 /* Assets.xcassets */,
+				A8AD6C7224BDF00100906EA2 /* LaunchScreen.storyboard */,
+				A8AD6C7524BDF00100906EA2 /* Info.plist */,
+			);
+			path = "Crimea Shoes (UiSegmentControl)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8AD6C6324BDEFFF00906EA2 /* Crimea Shoes (UiSegmentControl) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8AD6C7824BDF00100906EA2 /* Build configuration list for PBXNativeTarget "Crimea Shoes (UiSegmentControl)" */;
+			buildPhases = (
+				A8AD6C6024BDEFFF00906EA2 /* Sources */,
+				A8AD6C6124BDEFFF00906EA2 /* Frameworks */,
+				A8AD6C6224BDEFFF00906EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crimea Shoes (UiSegmentControl)";
+			productName = "Crimea Shoes (UiSegmentControl)";
+			productReference = A8AD6C6424BDF00000906EA2 /* Crimea Shoes (UiSegmentControl).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8AD6C5C24BDEFFF00906EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yura Fomin";
+				TargetAttributes = {
+					A8AD6C6324BDEFFF00906EA2 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = A8AD6C5F24BDEFFF00906EA2 /* Build configuration list for PBXProject "Crimea Shoes (UiSegmentControl)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8AD6C5B24BDEFFF00906EA2;
+			productRefGroup = A8AD6C6524BDF00000906EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8AD6C6324BDEFFF00906EA2 /* Crimea Shoes (UiSegmentControl) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8AD6C6224BDEFFF00906EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AD6C7424BDF00100906EA2 /* LaunchScreen.storyboard in Resources */,
+				A8AD6C7124BDF00100906EA2 /* Assets.xcassets in Resources */,
+				A8AD6C6F24BDF00000906EA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8AD6C6024BDEFFF00906EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AD6C6C24BDF00000906EA2 /* ViewController.swift in Sources */,
+				A8AD6C7E24BE02B200906EA2 /* EndViewController.swift in Sources */,
+				A8AD6C6824BDF00000906EA2 /* AppDelegate.swift in Sources */,
+				A8AD6C6A24BDF00000906EA2 /* SceneDelegate.swift in Sources */,
+				A8AD6C7C24BDF07100906EA2 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8AD6C6D24BDF00000906EA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AD6C6E24BDF00000906EA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8AD6C7224BDF00100906EA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8AD6C7324BDF00100906EA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8AD6C7624BDF00100906EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8AD6C7724BDF00100906EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8AD6C7924BDF00100906EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crimea Shoes (UiSegmentControl)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurafomin.Crimea-Shoes--UiSegmentControl-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8AD6C7A24BDF00100906EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crimea Shoes (UiSegmentControl)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurafomin.Crimea-Shoes--UiSegmentControl-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8AD6C5F24BDEFFF00906EA2 /* Build configuration list for PBXProject "Crimea Shoes (UiSegmentControl)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AD6C7624BDF00100906EA2 /* Debug */,
+				A8AD6C7724BDF00100906EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8AD6C7824BDF00100906EA2 /* Build configuration list for PBXNativeTarget "Crimea Shoes (UiSegmentControl)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AD6C7924BDF00100906EA2 /* Debug */,
+				A8AD6C7A24BDF00100906EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8AD6C5C24BDEFFF00906EA2 /* Project object */;
+}
